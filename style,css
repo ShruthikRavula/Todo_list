@@ -1,0 +1,79 @@
+/* Basic styling for the app container */
+.app {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style for the task input */
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Style for the "Add" button */
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style for the task list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+/* Style for the task checkboxes */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style for the task text */
+li label {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Style for the "Delete" button */
+li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #e53935;
+}
